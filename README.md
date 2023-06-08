@@ -3,7 +3,7 @@
 Original repository - https://github.com/CyberSource/cybersource-rest-client-php
 
 ## Reasons of creating this fork:
-* Original repository has dependency on APCU which is not used but conflicts with OroCommerce dependencies (>=5.0)
+* Original repository has dependency on "cache/apcu-adapter" which is not used but it's dependencies conflict with OroCommerce dependencies (>=5.0)
 * Flex API v.1 support was removed from latest versions, the latest release that has it is 0.0.37 
 
 The CyberSource PHP client provides convenient access to the [CyberSource REST API](https://developer.cybersource.com/api/reference/api-reference.html) from your PHP application.
